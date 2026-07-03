@@ -12,7 +12,7 @@ The article explains what the Cybersecurity Framework is. This is where you use 
 
 ## Do this (about 30 minutes)
 
-1. Open the worked example. Read the "How to use" tab, then look down the Gap column. The red cells (a gap of 2 or more) show up across every function, which is normal for a young company. The deepest gaps, where Current is 1, cluster in oversight, adverse-event analysis, improvement, and incident analysis, which is exactly what you would expect from a fast-moving four-year-old.
+1. Open the worked example. Read the "How to use" tab, then look down the Gap column. The red cells (a gap of 2 or more) show up across every function, which is normal for a young company. The deepest gaps, where Current is 1, cluster in oversight, adverse-event analysis, improvement, incident analysis, and recovery communication, which is exactly what you would expect from a fast-moving four-year-old.
 2. Open the blank version. Imagine you are Meridian's new security lead. For each category, set a Current rating (1 to 4) and a Target. Be honest about Current. Not everything needs a Target of 4.
 3. Look at your biggest gaps. Those three or four rows are where a real roadmap would start.
 4. Now the real exercise: do the same for a system you actually know, at work or at home. The framework only becomes real when you point it at something you care about.
