@@ -7,7 +7,7 @@ You filled in the blank profile. Now check your thinking against this. There is 
 Do not look at individual rows first. Look at the summary by function, and at where the red gaps cluster. For Meridian the pattern is the story:
 
 - **Strong where a young cloud company is usually strong.** Identity and access (PR.AA), data security (PR.DS), and policy (GV.PO) are rated 3. A four-year-old bank built on AWS tends to get encryption, MFA, and role-based access right early, because the cloud makes them easy and the business demands them.
-- **Weak where a young company is usually weak.** Oversight (GV.OV), detection and analysis (DE.CM, DE.AE), improvement (ID.IM), and incident analysis (RS.AN) are rated 1. These are the muscles that take time and maturity, not a switch you flip. They need process, review, and people, which a fast-growing team has not built yet.
+- **Weak where a young company is usually weak.** The lowest scores, a Current of 1, land on Oversight (GV.OV), adverse-event analysis (DE.AE), improvement (ID.IM), and incident analysis (RS.AN). These are the muscles that take time and maturity, not a switch you flip. They need process, review, and people, which a fast-growing team has not built yet. Note that monitoring itself (DE.CM) is a 2, because Meridian does collect signals; it is the analysis of them (DE.AE) that sits at 1.
 
 If your profile showed a similar shape, strong technical controls, weaker governance and detection, you read Meridian correctly. That shape is extremely common in real small companies.
 

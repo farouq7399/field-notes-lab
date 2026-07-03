@@ -18,6 +18,8 @@ Read the table, then read the notes under it. The notes are where the real think
 | S8 | Corporate IT (M365, laptops) | Email, documents, staff devices | All staff | Medium to high. The way most attacks actually start. |
 | S9 | HR System (a SaaS product) | Payroll and employee records | HR | Medium. Employee data, not customer data. |
 
+The "sensitivity" column above is a quick, informal gut-feel, not a formal rating. It is deliberately different from the FIPS 199 categorisation you do in Episode 3. The portal (S2) feels High here because it is the internet-facing front door, but its formal FIPS 199 categorisation comes out Moderate, because the portal shows masked and limited data while the authoritative High data lives behind it in Core Banking (S3). That gap between the gut-feel and the scoped rating is exactly the lesson of Episode 3, so hold the thought.
+
 ## The notes that matter
 
 **The crown jewels are S3, S4, and S5.** If you only had time to protect three things, it would be the core banking platform, the payments service, and the identity service. A useful habit: for any organisation, find the two or three systems that would end the company if they failed, and make sure they get the most attention. Everything else is triage after that.

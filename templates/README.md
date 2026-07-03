@@ -1,6 +1,6 @@
 # Templates: turn findings into a plan
 
-These two workbooks are the working tools a security team lives in day to day. They are not tied to one episode. Once you have assessed a system and found gaps, this is where the gaps go to get fixed.
+These three workbooks are the working tools a security team lives in day to day. They are not tied to one episode. Once you have assessed a system and found gaps, this is where the gaps go to get fixed.
 
 ## What is in here
 
