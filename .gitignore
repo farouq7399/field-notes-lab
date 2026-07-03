@@ -10,3 +10,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local build scripts (not shipped to the public repo)
+build/
+company/diagrams/build_diagrams.py

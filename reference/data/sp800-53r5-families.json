@@ -1,0 +1,37 @@
+{
+  "catalog": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls",
+  "source": "doi:10.6028/NIST.SP.800-53r5; baselines in SP 800-53B",
+  "note": "20 control families. The full catalog (~1000 controls + enhancements) and the authoritative Low/Moderate/High + Privacy baselines are published by NIST in human-readable PDFs and machine-readable OSCAL at https://github.com/usnistgov/oscal-content and https://csrc.nist.gov/projects/risk-management/sp800-53-controls. This file lists every family and a curated set of foundational controls for learning and tooling; pull the complete OSCAL catalog for production use.",
+  "families": [
+    { "id": "AC", "name": "Access Control", "theme": "Who/what may access; least privilege, separation of duties, remote/wireless access, session control" },
+    { "id": "AT", "name": "Awareness and Training", "theme": "Security & privacy literacy, role-based training, records" },
+    { "id": "AU", "name": "Audit and Accountability", "theme": "Event logging, content, storage, review/analysis, time stamps, protection, non-repudiation, retention" },
+    { "id": "CA", "name": "Assessment, Authorization, and Monitoring", "theme": "Control assessments, POA&M, authorization (ATO), continuous monitoring, interconnections, penetration testing" },
+    { "id": "CM", "name": "Configuration Management", "theme": "Baseline config, change control, impact analysis, least functionality, inventory, CM plan" },
+    { "id": "CP", "name": "Contingency Planning", "theme": "Contingency plan, training/testing, backups, alternate sites, recovery/reconstitution" },
+    { "id": "IA", "name": "Identification and Authentication", "theme": "Org/non-org users, MFA, device ID, authenticator management, re-authentication" },
+    { "id": "IR", "name": "Incident Response", "theme": "IR policy, training, testing, handling, monitoring, reporting, response plan, spillage" },
+    { "id": "MA", "name": "Maintenance", "theme": "Controlled/remote maintenance, tools, personnel, timely maintenance" },
+    { "id": "MP", "name": "Media Protection", "theme": "Media access, marking, storage, transport, sanitization, use" },
+    { "id": "PE", "name": "Physical and Environmental Protection", "theme": "Physical access, monitoring, power, fire, temperature, water damage, delivery/removal" },
+    { "id": "PL", "name": "Planning", "theme": "System security & privacy plans (SSP), rules of behavior, security architecture, baseline selection" },
+    { "id": "PM", "name": "Program Management", "theme": "Org-wide program controls (not system-specific): risk mgmt strategy, EA, insider threat, C-SCRM, workforce" },
+    { "id": "PS", "name": "Personnel Security", "theme": "Position risk, screening, termination, transfer, agreements, sanctions" },
+    { "id": "PT", "name": "PII Processing and Transparency", "theme": "Authority/purpose to process PII, consent, privacy notice, minimization, redress" },
+    { "id": "RA", "name": "Risk Assessment", "theme": "Security categorization, risk assessment, vulnerability monitoring/scanning, threat hunting, privacy impact" },
+    { "id": "SA", "name": "System and Services Acquisition", "theme": "SDLC, acquisition process, developer security testing, supply chain, external services" },
+    { "id": "SC", "name": "System and Communications Protection", "theme": "Boundary protection, crypto, denial-of-service, transmission confidentiality/integrity, isolation" },
+    { "id": "SI", "name": "System and Information Integrity", "theme": "Flaw remediation, malware, monitoring, alerts, software/firmware/info integrity, spam" },
+    { "id": "SR", "name": "Supply Chain Risk Management", "theme": "SCRM plan, supplier assessments, provenance, tamper resistance, component authenticity, disposal" }
+  ],
+  "baselines": {
+    "source": "FIPS 200 mandates the use of 800-53 controls; SP 800-53B defines the baselines.",
+    "security": ["Low", "Moderate", "High"],
+    "privacy": ["Privacy baseline (applies when system processes PII, independent of impact level)"],
+    "selection_rule": "Categorize the system (FIPS 199 high-water mark) -> pick the matching security baseline -> tailor (apply overlays, scope, supplement, assign parameters, document) per 800-53B."
+  },
+  "control_anatomy": {
+    "identifier": "FAMILY-NN (e.g., AC-2). Enhancements: FAMILY-NN(E) (e.g., AC-2(1)).",
+    "parts": ["Control statement (the requirement)", "Discussion (additional context)", "Related Controls", "Control Enhancements", "References", "Assignment/Selection parameters (organization-defined values, ODVs)"]
+  }
+}

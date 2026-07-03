@@ -13,14 +13,16 @@ If the articles are the map, this is the terrain.
 
 ## The lab, episode by episode
 
-| Episode | You will | Open this |
-|---|---|---|
-| 1. The CSF profile | Rate where Meridian is and where it wants to be, across all 22 CSF categories | [episode-01-csf](episode-01-csf/README.md) |
-| 2. The RMF, one system | Walk the Customer Web Portal through all seven RMF steps | [episode-02-rmf](episode-02-rmf/README.md) |
-| 3. Categorize and Select | Categorise the portal (FIPS 199) and pick its controls | [episode-03-categorize-select](episode-03-categorize-select/README.md) |
-| Ongoing | Track weaknesses to closure, and plan the roadmap | [templates](templates/README.md) |
+The lab is released in step with the articles. Each episode appears here when its article is published, so nothing is spoiled ahead of time.
 
-Most workbooks come in two versions: a **worked example** (see what "done" looks like) and a **BLANK** (the one you fill in).
+| Episode | You will | Status |
+|---|---|---|
+| 1. The CSF profile | Rate where Meridian is and where it wants to be, across all 22 CSF categories | Live: [episode-01-csf](episode-01-csf/README.md) |
+| 2. The RMF, one system | Walk the Customer Web Portal through all seven RMF steps | Coming soon, with the article |
+| 3. Categorize and Select | Categorise the portal (FIPS 199) and pick its controls | Coming soon, with the article |
+| Ongoing | Track weaknesses to closure, assess controls, plan the roadmap | Live: [templates](templates/README.md) |
+
+Most workbooks come in two versions: a **worked example** (see what "done" looks like) and a **BLANK** (the one you fill in). Each episode also ships a **solution walkthrough** that explains the reasoning, so you can check not just your answer but how you got there.
 
 ## What is inside
 
@@ -28,11 +30,10 @@ Most workbooks come in two versions: a **worked example** (see what "done" looks
 field-notes-lab/
   company/                     the fictional bank: profile, systems, data, diagrams
   policies/                    five example security policies, each mapped to NIST
-  episode-01-csf/              CSF 2.0 current-vs-target profile (worked + blank)
-  episode-02-rmf/              the seven-step walkthrough + a progress tracker
-  episode-03-categorize-select/ FIPS 199 categorisation + control selection (worked + blank)
-  templates/                   POA&M and gap-assessment workbooks
-  build/                       the scripts that generate the workbooks
+  reference/                   real NIST data: 800-53B baselines, the 20 families, sources
+  episode-01-csf/              CSF 2.0 profile (worked + blank) + solution walkthrough
+  templates/                   POA&M, gap assessment, and 800-53A control assessment
+  (later episodes appear here as their articles publish)
 ```
 
 ## The policies
@@ -44,6 +45,15 @@ Five example policies, written for Meridian, each ending with how it maps back t
 - [Acceptable Use Policy](policies/03-acceptable-use-policy.md)
 - [Data Classification Policy](policies/04-data-classification-policy.md)
 - [Incident Response Plan](policies/05-incident-response-plan.md)
+
+## Real NIST reference
+
+So you are never far from the source, the lab ships the real NIST data it is built on:
+
+- [reference/00-nist-sources.md](reference/00-nist-sources.md): the documents in play, and how they map to the episodes.
+- **reference/sp800-53B-baselines.xlsx**: the real baseline sizes (Low 149, Moderate 287, High 370, Privacy 96) and the full Moderate baseline, all 287 controls, grouped by family. From NIST OSCAL.
+- **reference/data/**: the machine-readable NIST source data, so you can verify or refresh it.
+- **templates/control-assessment.xlsx**: assessing whether a control actually works, the SP 800-53A way (Examine, Interview, Test, then Satisfied or Other than satisfied), feeding the POA&M.
 
 ## How it all connects
 
@@ -57,16 +67,9 @@ The whole point is that these pieces are one loop, not separate exercises:
 
 Do all of it on Meridian first. Then do it on a system you actually know. That second pass is where it stops being theory.
 
-## Regenerating the workbooks
+## Just open and use it
 
-Everything is built from scripts, so it is reproducible and easy to audit.
-
-```
-cd build && python build_workbooks.py          # all the Excel artifacts
-cd company/diagrams && python build_diagrams.py # the diagrams
-```
-
-Requires Python with `openpyxl` (workbooks) and `Pillow` (diagrams).
+Everything here is ready to use. Open the Excel workbooks in Excel, LibreOffice, or Google Sheets. Read the Markdown pages on GitHub or in any text editor. There is nothing to install and nothing to build. Start at the company profile, then Episode 1.
 
 ## A note on sources
 

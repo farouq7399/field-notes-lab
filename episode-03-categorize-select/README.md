@@ -10,6 +10,7 @@ Steps 2 and 3 of the RMF are where beginners freeze, because they feel abstract.
 - **fips199-categorization-BLANK.xlsx**: the empty version to practise on.
 - **control-selection.xlsx**: the Select step. Starting from the Moderate baseline, a representative set of controls with status and owners. See how a real control tracker is shaped.
 - **control-selection-BLANK.xlsx**: the empty version.
+- **solution-walkthrough.md**: the answer key. Why each FIPS rating, why the portal is Moderate and not High, and how to read the control statuses. Check your reasoning here after you try the blanks.
 
 ## Do this (about 45 minutes)
 

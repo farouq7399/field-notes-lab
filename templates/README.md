@@ -6,6 +6,7 @@ These two workbooks are the working tools a security team lives in day to day. T
 
 - **poam-tracker.xlsx**: the Plan of Action and Milestones. The master list of every known weakness, its severity, who owns the fix, and by when. Pre-filled with a few realistic Meridian items, plus blank rows to add your own.
 - **gap-assessment.xlsx**: a higher-level view. Where you are, where you want to be, and how big the gap is, per area. Good for planning a roadmap and for talking to leadership.
+- **control-assessment.xlsx**: the Assess step, the SP 800-53A way. For each control, how you checked it (Examine, Interview, Test) and whether it actually works (Satisfied or Other than satisfied). Every failure feeds the POA&M. This is the honest join between "we have controls" and "our controls work."
 
 ## How they connect to everything else
 
