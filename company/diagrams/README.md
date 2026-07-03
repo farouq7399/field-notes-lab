@@ -1,6 +1,6 @@
 # Diagrams
 
-Three pictures of the fictional Meridian Pay, in the Field Notes look. Regenerate them any time with `python build_diagrams.py`.
+Three pictures of the fictional Meridian Pay, in the Field Notes look. They are ready-to-use images, so just open them from this folder.
 
 - **architecture.png**: how Meridian fits together. The customer-facing apps, the core systems in the cloud, and the outside providers.
 - **data-flow.png**: follow one payment through the systems, and see every place Restricted data passes.

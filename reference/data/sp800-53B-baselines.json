@@ -1,7 +1,7 @@
 {
   "catalog": "NIST SP 800-53 Rev. 5 control baselines (from NIST OSCAL)",
   "source": "https://github.com/usnistgov/oscal-content",
-  "note": "Authoritative control membership for the Low/Moderate/High security baselines and the Privacy baseline [SP 800-53B]. OSCAL ids are lowercase with '.' for enhancements; 'display' uses NIST form AC-2(1). Re-run fetch_baselines.py to refresh from source.",
+  "note": "Authoritative control membership for the Low/Moderate/High security baselines and the Privacy baseline [SP 800-53B]. OSCAL ids are lowercase with '.' for enhancements; 'display' uses NIST form AC-2(1). To refresh, re-fetch from the OSCAL source URL above.",
   "baselines": {
     "low": {
       "source_profile": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_LOW-baseline_profile.json",
