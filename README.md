@@ -1,3 +1,5 @@
+![Field Notes Lab](assets/banner.png)
+
 # Field Notes Lab
 
 A hands-on companion to the Field Notes series. You read the article, then you come here and actually do it: categorise a system, build a Cybersecurity Framework profile, walk a system through the Risk Management Framework, and track the gaps, all on one fictional company you can practise on freely.
