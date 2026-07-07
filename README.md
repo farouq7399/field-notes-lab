@@ -20,7 +20,7 @@ The lab is released in step with the articles. Each episode appears here when it
 | Episode | You will | Status |
 |---|---|---|
 | 1. The CSF profile | Rate where Meridian is and where it wants to be, across all 22 CSF categories | Live: [episode-01-csf](episode-01-csf/README.md) |
-| 2. The RMF, one system | Walk the Customer Web Portal through all seven RMF steps | Coming soon, with the article |
+| 2. The RMF, one system | Walk the Customer Web Portal through all seven RMF steps | Live: [episode-02-rmf](episode-02-rmf/README.md) |
 | 3. Categorize and Select | Categorise the portal (FIPS 199) and pick its controls | Coming soon, with the article |
 | Ongoing | Track weaknesses to closure, assess controls, plan the roadmap | Live: [templates](templates/README.md) |
 
