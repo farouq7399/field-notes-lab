@@ -21,7 +21,7 @@ The lab is released in step with the articles. Each episode appears here when it
 |---|---|---|
 | 1. The CSF profile | Rate where Meridian is and where it wants to be, across all 22 CSF categories | Live: [episode-01-csf](episode-01-csf/README.md) |
 | 2. The RMF, one system | Walk the Customer Web Portal through all seven RMF steps | Live: [episode-02-rmf](episode-02-rmf/README.md) |
-| 3. Categorize and Select | Categorise the portal (FIPS 199) and pick its controls | Coming soon, with the article |
+| 3. Categorize and Select | Categorise the portal (FIPS 199) and pick its controls | Live: [episode-03-categorize-select](episode-03-categorize-select/README.md) |
 | Ongoing | Track weaknesses to closure, assess controls, plan the roadmap | Live: [templates](templates/README.md) |
 
 Most workbooks come in two versions: a **worked example** (see what "done" looks like) and a **BLANK** (the one you fill in). The hands-on episodes (1 and 3) also ship a **solution walkthrough** that explains the reasoning, so you can check not just your answer but how you got there. Episode 2 is a guided read-through of the RMF rather than a fill-in exercise.
